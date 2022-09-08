@@ -24,7 +24,10 @@ class RPS():
         
         elif self.options.index(self.userchoice) - self.options.index(self.compchoice) == -2 or 1:
             print ('You won')
-
+'''
+The above code was used as i worked out those were the values obtained from the winning index subtraction. Rock is 0, Paper is 1 and Scissors is 2.
+R-S = -2; P-R & S-P = 1
+'''
         else:
             print ('You lost')
 
